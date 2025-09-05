@@ -1,4 +1,10 @@
 .venv
 
 Optimizers
+RNN
+CNN
+LSTM
+GRU
+Activation_Functions
 
+Overfitting_Reducers
