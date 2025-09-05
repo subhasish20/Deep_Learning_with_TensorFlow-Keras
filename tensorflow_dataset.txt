@@ -1,0 +1,89 @@
+Classification Datasets
+
+1. MNIST
+
+   Description: Handwritten digits (0–9) image classification.
+   Link: `tensorflow.keras.datasets.mnist` (also available via TFDS)
+   Features: 28x28 grayscale images, 10 classes.
+
+2. CIFAR-10
+
+   Description: 60,000 32x32 color images in 10 classes (e.g., airplanes, cars, cats).
+   Link: `tensorflow.keras.datasets.cifar10` (also available via TFDS)
+   Features: 32x32 RGB images, 10 classes.
+
+3. CIFAR-100
+
+   Description: Similar to CIFAR-10 but with 100 classes.
+   Link: `tensorflow.keras.datasets.cifar100` (also available via TFDS)
+   Features: 32x32 RGB images, 100 classes.
+
+4. Fashion MNIST
+
+   Description: Fashion product images in 10 categories (e.g., T-shirts, sneakers).
+   Link: `tensorflow.keras.datasets.fashion_mnist` (also available via TFDS)
+   Features: 28x28 grayscale images, 10 classes.
+
+5. IMDB Reviews
+
+   Description: Sentiment analysis dataset of movie reviews (positive/negative).
+   Link: `tensorflow.keras.datasets.imdb` (also available via TFDS)
+   Features: Text (movie reviews), binary classification (positive/negative).
+
+6. 20 Newsgroups
+
+   Description: Text classification for 20 different newsgroups.
+   Link: Available in `sklearn.datasets.fetch_20newsgroups` (can be used in Keras/TensorFlow)
+   Features: Text, 20 categories.
+
+7. Cleveland Heart Disease
+
+   Description: Classification of heart disease presence (binary or multi-class).
+   Link: Available via UCI repository.
+   Features: Various clinical features, 2 or 5 classes.
+
+8. Cat vs Dog
+
+   Description: Binary classification of images as either "Cat" or "Dog".
+   Link: Available in `TensorFlow Datasets` or can be downloaded from Kaggle.
+   Features: 150x150 RGB images, binary classification.
+
+9. The Dogs vs. Cats Dataset
+
+   Description: Similar to the Cat vs Dog dataset, but contains larger variations of dog/cat images.
+   Link: Available via Kaggle.
+   Features: 150x150 RGB images, binary classification.
+
+10. Breast Cancer Wisconsin
+
+    Description: Binary classification (malignant vs benign).
+    Link: `sklearn.datasets.load_breast_cancer` (can be used in TensorFlow/Keras)
+    Features: Clinical features, binary classes.
+
+---
+Regression Datasets
+
+1. Boston Housing
+
+   Description: Predict housing prices in Boston based on several features.
+   Link: `tensorflow.keras.datasets.boston_housing` (also available via TFDS)
+   Features: 13 features, continuous target (price).
+
+2. California Housing
+
+   Description: Predict house values in California based on geographical and environmental data.
+   Link: Available via `sklearn.datasets.fetch_california_housing` (can be used in TensorFlow/Keras)
+   Features: 8 features, continuous target (price).
+
+3. Diabetes Dataset
+
+   Description: Predict diabetes progression based on several health features.
+   Link: `sklearn.datasets.load_diabetes` (can be used in TensorFlow/Keras)
+   Features: 10 features, continuous target (diabetes progression).
+
+4. Auto MPG
+
+   Description: Predict the miles per gallon of cars from various car attributes.
+   Link: `tensorflow_datasets.load('auto_mpg')` or available from UCI repository.
+   Features: Various car features, continuous target (MPG).
+
