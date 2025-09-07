@@ -3,7 +3,6 @@
 Optimizers
 RNN
 CNN
-LSTM
 GRU
 
 Overfitting_Reducers
