@@ -1,7 +1,7 @@
 .venv
 
 Optimizers
-RNN
+
 GRU
 
 Overfitting_Reducers
